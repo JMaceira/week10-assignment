@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Assignment Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<style>
+    body {
+        background-color:rgb(191, 224, 253);;
+    }
+</style>
+<body>
+  
+    <table class="table table-hover"> 
+        <thead>             
+            <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>Favorite Hobby</th>
+            </tr>
+        </thead>
+        <tbody id="hobbytable-body">
+            <tr>
+                <td>John</td>
+                <td>Maceira</td>
+                <td>Playing Basketball</td>
+            </tr>
+            <tr>
+              <td>Phil</td>
+              <td>Kane</td>
+              <td>Making Music </td>
+          </tr>
+          <tr>
+            <td>Jack</td>
+            <td>Jones</td>
+            <td>Going out to eat</td>
+        </tr>
+
+        </tbody>
+      </table>
+    
+    <form>
+        <div class="form-group">
+          <label for="FirstName">First Name</label>
+          <input type="text" class="form-control" id="FirstName" placeholder="Enter First Name">
+         </div>
+        <div class="form-group">
+          <label for="LastName">Last Name</label>
+          <input type="text" class="form-control" id="LastName" placeholder="Enter Last Name">
+        </div>
+        <div class="form-group">
+            <label for="Hobby">Hobby</label>
+            <input type="text" class="form-control" id="Hobby" placeholder="Enter Favorite Hobby">
+          </div>
+        <br>
+        <button type="submit" class="btn btn-primary form-control" id="submitbutton">Submit</button>
+      </form>
+      
+     <script src="javascript.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
